@@ -4,7 +4,7 @@ export const ProductsContainer = styled.div`
 	/* width: 100vw; */
 	min-height: 100vh;
 	padding: 5rem calc((100vw - 1300px) / 2);
-	background: #150f0f;
+	background: #151717;
 	color: #fff;
 `;
 
@@ -18,14 +18,14 @@ export const ProductsWrapper = styled.div`
 export const ProductsCard = styled.div`
 	margin: 0 2rem;
 	line-height: 2;
-	width: 300px;
+	width: 350px;
 `;
 
 export const ProductsImg = styled.img`
 	height: 300px;
 	min-width: 300px;
 	max-width: 100%;
-	box-shadow: 8px 8px #fdc500;
+	box-shadow: 8px 8px #23c4b7;
 `;
 
 export const ProductsHeading = styled.h1`
@@ -42,11 +42,12 @@ export const ProductsTitle = styled.h2`
 export const ProductsInfo = styled.div`
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: flex-start; /* Zmiana wartości na 'flex-start' */
 	align-items: center;
 	padding: 2rem;
-	text-align: center;
+	text-align: left; /* Zmiana wartości na 'left' */
 `;
+
 
 export const ProductsDesc = styled.p`
 	margin-bottom: 1rem;

@@ -22,7 +22,7 @@ function Footer() {
 			<FooterWrap>
 				<SocialMedia>
 					<SocialMediaWrap>
-						<SocialLogo to='/'>Pizza</SocialLogo>
+						<SocialLogo to='/'>InnovateMedia</SocialLogo>
 						<SocialIcons>
 							<SocialIconLink
 								href='/'
