@@ -5,10 +5,10 @@ function NavBar({ toggle }) {
 	return (
 		<>
 			<Nav>
-				<NavLink to='/'>Spark Advertising</NavLink>
+				<NavLink to='/'>InnovateMedia</NavLink>
 				<NavIcon onClick={toggle}>
 					<p>Menu</p>
-					<Bars />
+					{/* <Bars /> */}
 				</NavIcon>
 			</Nav>
 		</>

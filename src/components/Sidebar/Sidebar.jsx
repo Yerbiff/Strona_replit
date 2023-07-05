@@ -16,12 +16,12 @@ function Sidebar({ isOpen, toggle }) {
 				<CloseIcon />
 			</Icon>
 			<SidebarMenu>
-				<SidebarLink to='/'>Pizzas</SidebarLink>
-				<SidebarLink to='/'>Desserts</SidebarLink>
-				<SidebarLink to='/'>Full Menu</SidebarLink>
+				<SidebarLink to='/'>Strona Głowna</SidebarLink>
+				<SidebarLink to='/oferta'>Oferta</SidebarLink>
+				<SidebarLink to='/cennik'>Cennik</SidebarLink>
 			</SidebarMenu>
 			<SideBtnWrap>
-				<SidebarRoute to='/'>Order Now</SidebarRoute>
+				<SidebarRoute to='/'>Skontaktuj się</SidebarRoute>
 			</SideBtnWrap>
 		</SidebarContainer>
 	);

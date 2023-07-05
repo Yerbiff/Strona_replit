@@ -19,13 +19,13 @@ function Hero() {
 
 	return (
 		<HeroContainer>
-			<NavBar toggle={toggle} />
-			<Sidebar isOpen={isOpen} toggle={toggle} />
+			{/* <NavBar toggle={toggle} />
+			<Sidebar isOpen={isOpen} toggle={toggle} /> */}
 			<HeroContent>
 				<HeroItems>
-					<HeroH1>Gret</HeroH1>
-					<HeroP>Ready in 60 seconds</HeroP>
-					<HeroBtn>Place Order</HeroBtn>
+					<HeroH1>Zdobądź uwagę milionów!</HeroH1>
+					<HeroP>Dotrzyj do swojej docelowej publiczności.</HeroP>
+					<HeroBtn>Zobacz ofertę</HeroBtn>
 				</HeroItems>
 			</HeroContent>
 		</HeroContainer>

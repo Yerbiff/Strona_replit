@@ -4,16 +4,18 @@ import { FaPizzaSlice } from 'react-icons/fa';
 
 export const Nav = styled.nav`
 	background: transparent;
-	height: 80px;
+	height: 0px;
 	display: flex;
 	justify-content: center;
 	font-weight: 700;
+	position: relative;
 `;
 
 export const NavLink = styled(Link)`
 	color: #fff;
 	font-size: 2rem;
 	display: flex;
+	height: 80px;
 	align-items: center;
 	text-decoration: none;
 	cursor: pointer;
@@ -34,7 +36,7 @@ export const NavIcon = styled.div`
 	color: #fff;
 
 	p {
-		transform: translate(-175%, 100%);
+		transform: translate(-100%, 100%);
 		font-weight: bold;
 	}
 `;

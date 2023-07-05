@@ -23,7 +23,9 @@ function Products({ heading, data }) {
 							<ProductsImg src={product.img} alt={product.alt} />
 							<ProductsInfo>
 								<ProductsTitle>{product.name}</ProductsTitle>
-								<ProductsDesc>{product.desc}</ProductsDesc>
+								<ProductsDesc>{product.desc1}</ProductsDesc>
+								<ProductsDesc>{product.desc2}</ProductsDesc>
+								<ProductsDesc>{product.desc3}</ProductsDesc>
 								<ProductsPrice>{product.price}</ProductsPrice>
 								<ProductsButton>{product.button}</ProductsButton>
 							</ProductsInfo>
