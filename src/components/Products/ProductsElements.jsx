@@ -42,11 +42,12 @@ export const ProductsTitle = styled.h2`
 export const ProductsInfo = styled.div`
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: flex-start; /* Zmiana wartości na 'flex-start' */
 	align-items: center;
 	padding: 2rem;
-	text-align: center;
+	text-align: left; /* Zmiana wartości na 'left' */
 `;
+
 
 export const ProductsDesc = styled.p`
 	margin-bottom: 1rem;

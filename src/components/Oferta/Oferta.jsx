@@ -1,10 +1,19 @@
 import React from 'react';
+import { OfertaContainer, Link } from './OfertaElenents';
+import { Miasta } from './miasta';
 
 const SubPage = () => {
 	return (
 		<div>
-			<h2>This is a subpage</h2>
-			{/* Dodaj tutaj zawartość podstrony */}
+			<OfertaContainer>
+			{Miasta.map((product, index) => {
+					return (
+						<div>
+							<Link href={product.Adres}>{product.Nazwa}</Link>
+						</div>
+					);
+				})}
+			</OfertaContainer>
 		</div>
 	);
 }

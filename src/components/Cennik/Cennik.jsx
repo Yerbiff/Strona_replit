@@ -1,11 +1,11 @@
 import React from 'react';
-import PricingBox from '../PricingBox/PricingBox';
+import Products from '..//Products/Products';
+import { productData, productDataTwo } from '..//Products/data';
 
 const Cennik = () => {
 	return (
 		<div>
-			<h2>This is a subpage</h2>
-			<PricingBox />
+			<Products heading='Dobierz plan do swoich potrzeb' data={productDataTwo} />
 		</div>
 	);
 }
