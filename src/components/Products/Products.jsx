@@ -10,6 +10,7 @@ import {
 	ProductsDesc,
 	ProductsPrice,
 	ProductsButton,
+	BestOfferBadge,
 } from './ProductsElements';
 
 function Products({ heading, data }) {
@@ -19,7 +20,9 @@ function Products({ heading, data }) {
 			<ProductsWrapper>
 				{data.map((product, index) => {
 					return (
+						
 						<ProductsCard key={index}>
+							{/* {index === 1 && <BestOfferBadge>Najszęsciej wybierana</BestOfferBadge>} */}
 							<ProductsImg src={product.img} alt={product.alt} />
 							<ProductsInfo>
 								<ProductsTitle>{product.name}</ProductsTitle>

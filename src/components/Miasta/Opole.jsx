@@ -1,11 +1,10 @@
 import React from 'react';
-import Products from '../Products/Products';
-import { productData, productDataTwo } from '../Products/data';
+import Oferta from "../Oferta/Oferta"
 
 const Opole = () => {
 	return (
 		<div>
-			<Products heading='Dobierz plan do swoich potrzeb' data={productDataTwo} />
+			<Oferta miasto='w Opolu'/>
 		</div>
 	);
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import Products from '..//Products/Products';
-import { productData, productDataTwo } from '..//Products/data';
+import {productDataTwo } from '..//Products/data';
 
 const Cennik = () => {
 	return (
