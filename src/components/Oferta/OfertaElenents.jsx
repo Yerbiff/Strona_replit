@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import FeaturePic from '../../images/offer.jpg';
+import FeaturePic from '../../images/offer.webp';
 export const OfertaContainer = styled.div`
 	/* width: 100vw; */
 	min-height: 100vh;
@@ -85,7 +85,7 @@ export const ImageContainerLeft = styled.div`
 `;
 export const Image = styled.img`
   max-width: 100%;
-  width:800px;
+  width: 800px;
   height: 400px;
   border-radius: 2%; 
 `;
@@ -110,7 +110,9 @@ export const FeatureContainer = styled.div`
 	color: #fff;
 	text-align: center;
 	padding: 0 1rem;
-
+  height: 100vh;
+	background-position: center;
+	background-size: cover;
 	h1 {
 		font-size: clamp(3rem, 5vw, 5rem);
 	}

@@ -1,9 +1,9 @@
 import React from 'react';
 import { OfertaContainer,Image,ImageContainer,ImageContainerLeft,FeatureContainer,FirstContainer,TextContainer, Link,OfertaDescription,OfertaCTA,OfertaList,OfertaListPorady,OfertaListBledy,OfertaListItem,OfertaTitle,MiastaContainer } from './OfertaElenents';
 import { Miasta } from './miasta';
-import ImgMistakes from '../../images/mistakes.jpg';
-import ImgAdvice from '../../images/advice.jpg';
-import ImgSocial from '../../images/social.jpg';
+import ImgMistakes from '../../images/mistakes.webp';
+import ImgAdvice from '../../images/advice.webp';
+import ImgSocial from '../../images/social.webp';
 
 const Oferta = ({miasto}) => {
 	return (

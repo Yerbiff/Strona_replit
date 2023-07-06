@@ -1,6 +1,6 @@
-import Standard from '../../images/swatch-zielony-liściasty.jpg';
-import Zaawansowany from '../../images/swatch-słoneczny-patrol.jpg';
-import Podstawowy from '../../images/swatch-blue-jeans.jpg';
+import Standard from '../../images/swatch-zielony-liściasty.webp';
+import Zaawansowany from '../../images/swatch-słoneczny-patrol.webp';
+import Podstawowy from '../../images/swatch-blue-jeans.webp';
 
 export const productDataTwo = [
 	{

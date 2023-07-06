@@ -2,11 +2,11 @@ import React from 'react';
 import Feature from '..//Feature/Feature';
 import Hero from '..//Hero/Hero';
 import { FirstContainer, TextContainer, Title, Content, SectionTitle , List, ListItem, Image,ImageContainer, ItemImage, ItemContent, ItemTitle } from './HomeElements';
-import ImgCreativity from '../../images/creativity.jpg';
-import ImgInnovation from '../../images/innovation.jpg';
-import ImgPartnership from '../../images/partnership.jpg';
-import ImgResults from '../../images/results.jpg';
-import SocialMedia from '../../images/social_media.jpg';
+import ImgCreativity from '../../images/creativity.webp';
+import ImgInnovation from '../../images/innovation.webp';
+import ImgPartnership from '../../images/partnership.webp';
+import ImgResults from '../../images/results.webp';
+import SocialMedia from '../../images/social_media.webp';
 
 
 const Home = () => {
