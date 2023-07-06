@@ -1,10 +1,10 @@
-import sweet1 from '../../images/sweet3.jpg';
-import sweet2 from '../../images/sweet-2.jpg';
-import sweet3 from '../../images/sweet-3.jpg';
+import Standard from '../../images/swatch-zielony-liściasty.jpg';
+import Zaawansowany from '../../images/swatch-słoneczny-patrol.jpg';
+import Podstawowy from '../../images/swatch-blue-jeans.jpg';
 
 export const productDataTwo = [
 	{
-		img: sweet2,
+		img: Podstawowy,
 		alt: 'Podstawowy',
 		name: 'Podstawowy pakiet:',
 		desc1: '- Zarządzanie kontami w mediach społecznościowych (Facebook, Instagram, Twitter)',
@@ -14,7 +14,7 @@ export const productDataTwo = [
 		button: 'Skontaktuj się',
 	},
 	{
-		img: sweet3,
+		img: Standard,
 		alt: 'Standard',
 		name: 'Standard pakiet:',
 		desc1: '- Reklamy płatne na Facebooku i Instagramie',
@@ -25,7 +25,7 @@ export const productDataTwo = [
 
 	},
 	{
-		img: sweet1,
+		img: Zaawansowany,
 		alt: 'Zaawansowany',
 		name: 'Zaawansowany pakiet:',
 		desc1: '- Monitoring konkurencji i badanie rynku',

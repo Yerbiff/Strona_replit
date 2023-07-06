@@ -1,7 +1,7 @@
 import React from 'react';
 import Feature from '..//Feature/Feature';
 import Hero from '..//Hero/Hero';
-import { FirstContainer, TextContainer, Title, Content, SectionTitle , List, ListItem, Button, Image,ImageContainer, ItemImage, ItemContent, ItemTitle } from './HomeElements';
+import { FirstContainer, TextContainer, Title, Content, SectionTitle , List, ListItem, Image,ImageContainer, ItemImage, ItemContent, ItemTitle } from './HomeElements';
 import ImgCreativity from '../../images/creativity.jpg';
 import ImgInnovation from '../../images/innovation.jpg';
 import ImgPartnership from '../../images/partnership.jpg';
